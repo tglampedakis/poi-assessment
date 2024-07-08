@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="POIAssessment:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>POIAssessment</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="POIAssessment-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="POIAssessment:war exploded" />
+    </root>
+  </artifact>
+</component>

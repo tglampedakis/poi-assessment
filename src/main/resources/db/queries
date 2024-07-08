@@ -1,0 +1,13 @@
+CREATE TABLE poi (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    latitude FLOAT(53) NOT NULL,
+    longitude FLOAT(53) NOT NULL,
+    counter INTEGER DEFAULT 0
+);
+
+INSERT INTO poi (name, latitude, longitude, counter)
+VALUES
+    ('Point A', 40.7128, -74.0060, 10),
+    ('Point B', 34.0522, -118.2437, 5),
+    ('Point C', 51.5074, -0.1278, 3);
